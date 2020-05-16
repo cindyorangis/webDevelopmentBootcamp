@@ -7,3 +7,4 @@
 - 121-122: Functions Part 1: Challenge - The Karel Robot
 - 124: Functions Part 2: Parameters and Arguments
 - Coding Exercise 3: Life in Weeks
+- Coding Exercise 4: BMI Calculator
