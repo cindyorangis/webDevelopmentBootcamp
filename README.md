@@ -8,3 +8,4 @@
 - 124: Functions Part 2: Parameters and Arguments
 - Coding Exercise 3: Life in Weeks
 - Coding Exercise 4: BMI Calculator
+- 131: Random Number Generation in Javascript: Building a Love Calculator
