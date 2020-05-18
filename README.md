@@ -15,3 +15,4 @@
 - 132: Control Statements: Using If-Else Conditionals & Logic
 - Coding Exercise 5: BMI Calculator Advanced (IF/ELSE)
 - Coding Exercise 6: Leap Year Challenge
+- 138: Adding Elements and Intermediate Array Techniques
