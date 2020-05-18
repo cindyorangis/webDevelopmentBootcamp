@@ -20,3 +20,5 @@
 - Coding Exercise 8: Fibonacci
 
 ## Section 12: Boss Level Challenge 1 - The Dicee Game
+
+## Section 13: Advanced JavaScript and DOM Manipulation - Drum Kit
