@@ -14,5 +14,6 @@
 - 131: Random Number Generation in Javascript: Building a Love Calculator
 - 132: Control Statements: Using If-Else Conditionals & Logic
 - Coding Exercise 5: BMI Calculator Advanced (IF/ELSE)
-- Coding Exercise 6: Leap Year Challenge
+- Coding Exercise 6: Leap Year
 - 138: Adding Elements and Intermediate Array Techniques
+- Coding Exercise 7: Who's Buying Lunch?
