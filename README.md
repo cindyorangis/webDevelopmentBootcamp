@@ -18,3 +18,5 @@
 - 138: Adding Elements and Intermediate Array Techniques
 - Coding Exercise 7: Who's Buying Lunch?
 - Coding Exercise 8: Fibonacci
+
+## Section 12: Boss Level Challenge 1 - The Dicee Game
