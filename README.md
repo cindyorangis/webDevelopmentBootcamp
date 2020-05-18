@@ -17,3 +17,4 @@
 - Coding Exercise 6: Leap Year
 - 138: Adding Elements and Intermediate Array Techniques
 - Coding Exercise 7: Who's Buying Lunch?
+- Coding Exercise 8: Fibonacci
