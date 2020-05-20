@@ -21,4 +21,7 @@
 
 ## Section 12: Boss Level Challenge 1 - The Dicee Game
 
-## Section 13: Advanced JavaScript and DOM Manipulation - Drum Kit
+## Section 13: Advanced JavaScript and DOM Manipulation
+
+- Drum Kit
+- 172: Higher Order Function Challenge
