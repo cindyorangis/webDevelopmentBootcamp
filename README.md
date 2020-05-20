@@ -25,3 +25,5 @@
 
 - Drum Kit
 - 172: Higher Order Function Challenge
+
+## Section 15: Boss Level Challenge 2 - The Simon Game
