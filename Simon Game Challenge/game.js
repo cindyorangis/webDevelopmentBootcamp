@@ -31,6 +31,10 @@ function nextSequence() {
     .fadeIn(100);
 
   // Play sound for button
-  var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
+  playSound(randomChosenColour);
+}
+
+function playSound(name) {
+  var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
 }
