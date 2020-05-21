@@ -3,6 +3,19 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 // Initialize game pattern array;
 var gamePattern = [];
 
+// Initialize clicked pattern array;
+var userClickedPattern = [];
+
+// Detect when any button is clicked
+$(".btn").click(function () {
+  // Store id of clicked button
+  var userChosenColour = $(this).attr("id");
+
+  // Add userChosenColour to end of userClickedPattern
+  userClickedPattern.push(userChosenColour);
+  console.log(userClickedPattern);
+});
+
 function nextSequence() {
   // Generates a random number between 0-3
   var randomNumber = Math.round(Math.random() * 3);
