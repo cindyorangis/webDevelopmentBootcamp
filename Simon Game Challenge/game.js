@@ -1,3 +1,7 @@
+// Initialize Level
+var level = 0;
+var started = false;
+
 // Array for button colours
 var buttonColours = ["red", "blue", "green", "yellow"];
 // Initialize game pattern array;
@@ -5,6 +9,16 @@ var gamePattern = [];
 
 // Initialize clicked pattern array;
 var userClickedPattern = [];
+
+// Begin game
+$(document).keydown(function () {
+  if (!started) {
+    // Update h1 to start game
+    $("#level-title").text("Level " + level);
+    nextSequence();
+    started = true;
+  }
+});
 
 // Detect when any button is clicked
 $(".btn").click(function () {
@@ -21,6 +35,9 @@ $(".btn").click(function () {
 });
 
 function nextSequence() {
+  level++;
+  // Update h1 to appropiate level
+  $("#level-title").text("Level " + level);
   // Generates a random number between 0-3
   var randomNumber = Math.round(Math.random() * 3);
   // Select random colour from buttonColurs array
