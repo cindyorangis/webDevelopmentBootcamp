@@ -14,6 +14,10 @@ $(".btn").click(function () {
   // Add userChosenColour to end of userClickedPattern
   userClickedPattern.push(userChosenColour);
   console.log(userClickedPattern);
+
+  playSound(userChosenColour);
+
+  animatePress(userChosenColour);
 });
 
 function nextSequence() {
@@ -37,4 +41,14 @@ function nextSequence() {
 function playSound(name) {
   var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
+}
+
+function animatePress(currentColour) {
+  // Add pressed css class to button when clicked
+  $("#" + currentColour).addClass("pressed");
+
+  // Remove pressed css class after 100 milliseconds
+  setTimeout(function () {
+    $("#" + currentColour).removeClass("pressed");
+  }, 100);
 }
