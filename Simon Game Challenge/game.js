@@ -32,9 +32,13 @@ $(".btn").click(function () {
   playSound(userChosenColour);
 
   animatePress(userChosenColour);
+
+  checkAnswer(userClickedPattern.length - 1);
 });
 
 function nextSequence() {
+  userClickedPattern = [];
+
   level++;
   // Update h1 to appropiate level
   $("#level-title").text("Level " + level);
@@ -68,4 +72,20 @@ function animatePress(currentColour) {
   setTimeout(function () {
     $("#" + currentColour).removeClass("pressed");
   }, 100);
+}
+
+function checkAnswer(currentLevel) {
+  // check if user most recent user answer is the same as game pattern
+  if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
+    console.log("success");
+
+    // if correct, move on
+    if (userClickedPattern.length === gamePattern.length) {
+      setTimeout(function () {
+        nextSequence();
+      }, 1000);
+    }
+  } else {
+    console.log("wrong");
+  }
 }
