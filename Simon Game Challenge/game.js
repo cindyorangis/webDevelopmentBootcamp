@@ -75,17 +75,29 @@ function animatePress(currentColour) {
 }
 
 function checkAnswer(currentLevel) {
-  // check if user most recent user answer is the same as game pattern
+  // Check if user most recent user answer is the same as game pattern
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
     console.log("success");
 
-    // if correct, move on
+    // If correct, move on
     if (userClickedPattern.length === gamePattern.length) {
       setTimeout(function () {
         nextSequence();
       }, 1000);
     }
   } else {
+    // Play wrong sound
+    playSound("wrong");
+
+    // Flash red if user got the wrong answer
+    $("body").addClass("game-over");
+    setTimeout(function () {
+      $("body").removeClass("game-over");
+    }, 200);
+
+    // Update h1 title to Restart
+    $("#level-title").text("Game Over, Press Any Key to Restart");
+
     console.log("wrong");
   }
 }
