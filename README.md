@@ -37,3 +37,7 @@
 - 248: Responding to Requests with HTML Files
 - 249: Processing Post Requests with Body Parser
 - 250: BMI Routing Challenge
+
+## Section 20: APIs - Application Programming Interfaces
+
+- 258: Making GET Requests with the Node HTTPS Module
