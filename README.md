@@ -33,3 +33,4 @@
 - 241: Creating Our First Server with Express
 - 242: Handling Requests and Responses: the GET Request
 - 244: Understanding and Working with Routes
+- 246: Calculator Challenge
