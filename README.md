@@ -27,3 +27,9 @@
 - 172: Higher Order Function Challenge
 
 ## Section 15: Boss Level Challenge 2 - The Simon Game
+
+## Section 19: Express.js with Node.js
+
+- 241: Creating Our First Server with Express
+- 242: Handling Requests and Responses: the GET Request
+- 244: Understanding and Working with Routes
