@@ -98,6 +98,14 @@ function checkAnswer(currentLevel) {
     // Update h1 title to Restart
     $("#level-title").text("Game Over, Press Any Key to Restart");
 
+    // Restart the game
+    startOver();
     console.log("wrong");
   }
+}
+
+function startOver() {
+  level = 0;
+  gamePattern = [];
+  started = false;
 }
