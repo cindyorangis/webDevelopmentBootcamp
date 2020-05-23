@@ -13,7 +13,15 @@ app.get("/", function (req, res) {
       const weatherData = JSON.parse(data);
       const temp = weatherData.main.temp; // main.temp
       const description = weatherData.weather[0].description; // weather[0].description
-      console.log(description);
+      const icon = weatherData.weather[0].icon; // weather[0].icon
+      const imageURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png"; // http://openweathermap.org/img/wn/10d@2x.png
+
+      res.write("<p>The weather is currently " + description + ".</p>");
+      res.write(
+        "<h1>The temperature in Toronto is " + temp + " degrees Celcius.</h1>"
+      );
+      res.write("<img src=" + imageURL + ">");
+      res.send();
 
       /*
       const obj = {
@@ -24,7 +32,6 @@ app.get("/", function (req, res) {
       */
     });
   });
-  res.send("Server is up and running");
 });
 
 app.listen(port, function () {

@@ -41,3 +41,5 @@
 ## Section 20: APIs - Application Programming Interfaces
 
 - 258: Making GET Requests with the Node HTTPS Module
+- 259: How to Parse JSON
+- 260: Using Express to Render a Website with Live API Data
