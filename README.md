@@ -23,8 +23,15 @@
 
 ## Section 13: Advanced JavaScript and DOM Manipulation
 
-- Drum Kit
 - 172: Higher Order Function Challenge
+
+### Drum Kit
+
+- 171: Adding Event Listners to a Button
+- 174: How to Play Sounds on a Website
+- 176: How to Use Switch Statements in JavaScript
+- 179: Using Keyboard Event Listeners to Check for Key Presses
+- 181: Adding Animation to Websites
 
 ## Section 15: Boss Level Challenge 2 - The Simon Game
 
