@@ -66,3 +66,4 @@
 - 282: Templates? Why Do We Need Templates?
 - 283: Creating Your First EJS Template
 - 284: Running Code Inside the EJS Template
+- 285: Passing Data from Your Webpage to Your Server
