@@ -64,4 +64,5 @@
 ## Section 22: EJS
 
 - 282: Templates? Why Do We Need Templates?
-- 283: Creating Your First EJS Templates
+- 283: Creating Your First EJS Template
+- 284: Running Code Inside the EJS Template
