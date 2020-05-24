@@ -60,3 +60,7 @@
 - 264: Posting Data to Mailchimp's Servers via their API
 - 265: Adding Success and Failure Pages
 - 266: Deploying Your Server with Heroku (https://gentle-wildwood-03304.herokuapp.com/)
+
+## Section 22: EJS
+
+- 282: Templates? Why Do We Need Templates?
