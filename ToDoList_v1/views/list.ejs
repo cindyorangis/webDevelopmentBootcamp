@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>To Do List</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
+<%- include("header") -%>
     <div class="box" id="heading">
-      <h1><%= kindOfDay %></h1>
+      <h1><%= listTitle %></h1>
     </div>
 
     <div class="box">
@@ -25,8 +18,7 @@
           placeholder="New Item"
           autocomplete="off"
         />
-        <button type="submit" name="button">+</button>
+        <button type="submit" name="list" value=<%= listTitle %>>+</button>
       </form>
     </div>
-  </body>
-</html>
+<%- include("footer") -%>

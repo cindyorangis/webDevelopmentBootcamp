@@ -68,3 +68,4 @@
 - 284: Running Code Inside the EJS Template
 - 285: Passing Data from Your Webpage to Your Server
 - 287: Adding Pre-Made CSS Stylesheets to Your Website
+- 288: Understanding Templating vs Layouts
