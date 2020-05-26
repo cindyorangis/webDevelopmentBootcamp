@@ -70,3 +70,5 @@
 - 287: Adding Pre-Made CSS Stylesheets to Your Website
 - 288: Understanding Templating vs Layouts
 - 289: Understanding Node Module Exports: How to Pass Functions and Data between Files
+
+## Section 23: Boss Level Challenge 3 - Blog Website
