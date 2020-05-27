@@ -4,6 +4,6 @@
 
 <% posts.forEach((post) => { %>
     <h1><%= post.title %></h1>
-    <p><%= post.body %></p>
+    <p><%= post.body.substring(0, 100) + " ..." %></p>
 <% }) %>
 <%- include("partials/footer"); -%>
