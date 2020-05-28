@@ -76,3 +76,4 @@
 ## Section 27: Mongoose
 
 - 357: Introduction to Mongoose
+- 358: Reading from Your Database with Mongoose
