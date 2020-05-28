@@ -21,6 +21,13 @@
 
 ## Section 12: Boss Level Challenge 1 - The Dicee Game
 
+- Create an External JS File
+- Add Dice Images
+- Create a Random Number
+- Change both img to a Random Dice
+- Change both img Elements
+- Change the Title to Display a Winner
+
 ## Section 13: Advanced JavaScript and DOM Manipulation
 
 - 172: Higher Order Function Challenge
@@ -34,6 +41,17 @@
 - 181: Adding Animation to Websites
 
 ## Section 15: Boss Level Challenge 2 - The Simon Game
+
+- Add JS and jQuery
+- Create a New Pattern
+- Show the Sequence to the User with Animations and Sounds
+- Check Which Button is Pressed
+- Add Sounds to Button Clicks
+- Add Animations to User Clicks
+- Start the Game
+- Check the User's Answer Against the Game Sequence
+- Game Over
+- Restart the Game
 
 ## Section 19: Express.js with Node.js
 
@@ -72,6 +90,27 @@
 - 289: Understanding Node Module Exports: How to Pass Functions and Data between Files
 
 ## Section 23: Boss Level Challenge 3 - Blog Website
+
+- Get Home route and add content to home.ejs
+- Pass data from homeStartingContent to home.ejs
+- Add header and footer partials to home.ejs
+- Moved header and footer to partials folder
+- Add About and Contact routes, pass content to about and contact.ejs
+- Add nav href to header
+- Add compose form and POST route
+- Add text fields to compose form and use bootstrap
+- Create JS object for post
+- Push post into posts array
+- Add posts to render array
+- Loop through all posts
+- Refactor for loop to use forEach
+- Render each post onto Home
+- Add express routing parameters /posts/:blogPost
+- Loop through posts array to check if it matches title in url
+- Add lodash and use \_.lowerCase on titles
+- Separate page for each blog post
+- Truncate post body on Home page to 100 characters
+- Add Read More to posts
 
 ## Section 27: Mongoose
 
