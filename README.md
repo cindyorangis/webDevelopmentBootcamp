@@ -73,6 +73,6 @@
 
 ## Section 23: Boss Level Challenge 3 - Blog Website
 
-## Section 26: MongoDB
+## Section 27: Mongoose
 
-- 353: Working with the Native MongoDB Driver
+- 357: Introduction to Mongoose
