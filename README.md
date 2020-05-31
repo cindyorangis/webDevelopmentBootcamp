@@ -119,3 +119,7 @@
 - 359: Data Validation with Mongoose
 - 360: Updating and Deleting Data Using Mongoose
 - 361: Establishing Relationships and Embedding Documents using Mongoose
+
+## Section 28: Putting Everything Together
+
+- 364: Take ToDoList Project to the Next Level and Connect it with Mongoose
