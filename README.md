@@ -117,3 +117,4 @@
 - 357: Introduction to Mongoose
 - 358: Reading from Your Database with Mongoose
 - 359: Data Validation with Mongoose
+- 360: Updating and Deleting Data Using Mongoose
