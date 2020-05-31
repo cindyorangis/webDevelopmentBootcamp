@@ -35,16 +35,23 @@ const item3 = new Item({
 
 const defaultItems = [item1, item2, item3];
 
-Item.insertMany(defaultItems, function (err) {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log("Successfully saved default items to DB");
-  }
-});
-
 app.get("/", (req, res) => {
-  res.render("list", { listTitle: "Today", newListItems: items });
+  Item.find({}, (err, foundItems) => {
+    // Check to see if Items collection is empty
+    if (foundItems.length === 0) {
+      // If empty, insert default items
+      Item.insertMany(defaultItems, (err) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("Successfully saved default items to DB");
+        }
+      });
+      res.redirect("/");
+    } else {
+      res.render("list", { listTitle: "Today", newListItems: foundItems });
+    }
+  });
 });
 
 app.post("/", (req, res) => {
