@@ -55,17 +55,15 @@ app.get("/", (req, res) => {
 });
 
 app.post("/", (req, res) => {
-  const item = req.body.newItem;
+  const itemName = req.body.newItem;
 
-  if (req.body.list === "Work") {
-    workItems.push(item);
+  const item = new Item({
+    name: itemName,
+  });
 
-    res.redirect("/work");
-  } else {
-    items.push(item);
+  item.save();
 
-    res.redirect("/");
-  }
+  res.redirect("/");
 });
 
 app.get("/work", (req, res) => {
