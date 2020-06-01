@@ -1,7 +1,6 @@
-//jshint esversion:6
-
 const express = require("express");
 const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
 const ejs = require("ejs");
 var _ = require("lodash");
 
@@ -18,6 +17,18 @@ app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
+
+mongoose.connect("mongodb://localhost:27017/blogDB", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+const postSchema = {
+  title: String,
+  body: String,
+};
+
+const Post = mongoose.model("Post", postSchema);
 
 let posts = [];
 
@@ -41,12 +52,12 @@ app.get("/compose", (req, res) => {
 });
 
 app.post("/compose", (req, res) => {
-  const post = {
+  const post = new Post({
     title: req.body.postTitle,
     body: req.body.postBody,
-  };
+  });
 
-  posts.push(post);
+  post.save();
 
   res.redirect("/");
 });
