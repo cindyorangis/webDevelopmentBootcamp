@@ -128,3 +128,4 @@
 - 367: Deleting Items from our ToDoList Database
 - 368: Creating Custom Lists using Express Route Parameters
 - 369: Adding New Items to the Custom ToDoLists
+- 370: Revisiting Lodash and Deleting Items from Custom ToDo Lists
