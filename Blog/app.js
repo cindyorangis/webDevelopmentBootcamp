@@ -30,12 +30,12 @@ const postSchema = {
 
 const Post = mongoose.model("Post", postSchema);
 
-let posts = [];
-
 app.get("/", (req, res) => {
-  res.render("home", {
-    startingContent: homeStartingContent,
-    posts: posts,
+  Post.find({}, (err, posts) => {
+    res.render("home", {
+      startingContent: homeStartingContent,
+      posts: posts,
+    });
   });
 });
 

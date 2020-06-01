@@ -138,3 +138,4 @@
 ## Section 30: Boss Level Challenge 4 - Blog Website Upgrade
 
 - Save Composed Posts with MongoDB
+- Get Home Page to Render the Posts
