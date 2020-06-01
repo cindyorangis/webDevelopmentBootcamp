@@ -66,6 +66,19 @@ app.post("/", (req, res) => {
   res.redirect("/");
 });
 
+app.post("/delete", (req, res) => {
+  const checkedItemId = req.body.checkbox;
+
+  Item.findByIdAndRemove(checkedItemId, (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("Removed checked item");
+      res.redirect("/");
+    }
+  });
+});
+
 app.get("/work", (req, res) => {
   res.render("list", { listTitle: "Work List", newListItems: workItems });
 });

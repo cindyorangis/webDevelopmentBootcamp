@@ -125,3 +125,4 @@
 - 364: Take ToDoList Project to the Next Level and Connect it with Mongoose
 - 365: Rendering Database Items into the ToDoList App
 - 366: Adding New Items to our ToDoList Database
+- 367: Deleting Items from our ToDoList Database
