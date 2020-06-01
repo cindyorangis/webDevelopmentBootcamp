@@ -133,3 +133,4 @@
 ## Section 29: Deploying Your Web Application
 
 - 374: How to Setup MongoDB Atlas
+- 375: Deploying An App with a Database to Heroku (https://agile-hamlet-78426.herokuapp.com/)

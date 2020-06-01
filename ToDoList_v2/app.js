@@ -3,7 +3,10 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
-const port = 3000;
+require("dotenv").config();
+const port = process.env.PORT ? process.env.PORT : 3000;
+const mongoUser = process.env.MONGO_USER;
+const mongoPass = process.env.MONGO_PASSWORD;
 
 const app = express();
 
@@ -12,7 +15,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 mongoose.connect(
-  "mongodb+srv://admin-cindy:Test123@cluster0-futyt.mongodb.net/todolistDB",
+  "mongodb+srv://" +
+    mongoUser +
+    ":" +
+    mongoPass +
+    "@cluster0-futyt.mongodb.net/todolistDB",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

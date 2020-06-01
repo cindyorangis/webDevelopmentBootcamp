@@ -13,6 +13,7 @@ APIs/Newsletter-Signup/.env
 
 ToDoList_v2/node_modules
 ToDoList_v2/package-lock.json
+ToDoList_v2/.env
 
 Blog/node_modules
 Blog/package-lock.json
