@@ -141,3 +141,7 @@
 - Get Home Page to Render the Posts
 - Redirect to Home Page after save() is completed with no errors
 - Render correct blog post based on post \_id
+
+## Section 31: Build Your Own RESTful API From Scratch
+
+- 389: Set Up Server Challenge
