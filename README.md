@@ -145,3 +145,4 @@
 ## Section 31: Build Your Own RESTful API From Scratch
 
 - 389: Set Up Server Challenge
+- 391: GET All Articles
