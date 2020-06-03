@@ -149,3 +149,4 @@
 - 392: POST a New Article
 - 393: Delete All Articles
 - 394: Chained Route Handlers Using Express
+- 395: GET a Specific Article
