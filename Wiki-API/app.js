@@ -104,6 +104,16 @@ app
         }
       }
     );
+  })
+
+  .delete((req, res) => {
+    Article.deleteOne({ title: req.params.articleTitle }, (err) => {
+      if (err) {
+        res.send(err);
+      } else {
+        res.send("Successfully deleted the selected article");
+      }
+    });
   });
 
 app.listen(port, () => {

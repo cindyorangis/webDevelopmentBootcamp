@@ -152,3 +152,4 @@
 - 395: GET a Specific Article
 - 396: PUT a Specific Article
 - 397: PATCH a Specific Article
+- 398: DELETE a Specific Article
