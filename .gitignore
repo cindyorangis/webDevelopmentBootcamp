@@ -23,3 +23,6 @@ FruitsProject/package-lock.json
 
 Wiki-API/node_modules
 Wiki-API/package-lock.json
+
+Secrets/node_modules
+Secrets/package-lock.json

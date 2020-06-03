@@ -153,3 +153,7 @@
 - 396: PUT a Specific Article
 - 397: PATCH a Specific Article
 - 398: DELETE a Specific Article
+
+## Section 32: Authentication & Security
+
+- 403: Getting Set Up
