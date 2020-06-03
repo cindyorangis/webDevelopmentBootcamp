@@ -49,6 +49,16 @@ app.post("/articles", (req, res) => {
   });
 });
 
+app.delete("/articles", (req, res) => {
+  Article.deleteMany((err) => {
+    if (err) {
+      res.send(err);
+    } else {
+      res.send("Successfully deleted all articles");
+    }
+  });
+});
+
 app.listen(port, () => {
   console.log("Server started on port " + port);
 });
