@@ -146,3 +146,4 @@
 
 - 389: Set Up Server Challenge
 - 391: GET All Articles
+- 392: POST a New Article
