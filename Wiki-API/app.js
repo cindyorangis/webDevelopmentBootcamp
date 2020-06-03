@@ -90,6 +90,20 @@ app
         }
       }
     );
+  })
+
+  .patch((req, res) => {
+    Article.update(
+      { title: req.params.articleTitle },
+      { $set: req.body },
+      (err) => {
+        if (err) {
+          res.send(err);
+        } else {
+          res.send("Successfully updated article");
+        }
+      }
+    );
   });
 
 app.listen(port, () => {

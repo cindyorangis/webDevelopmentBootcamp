@@ -151,3 +151,4 @@
 - 394: Chained Route Handlers Using Express
 - 395: GET a Specific Article
 - 396: PUT a Specific Article
+- 397: PATCH a Specific Article
