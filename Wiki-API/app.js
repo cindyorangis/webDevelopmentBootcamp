@@ -64,15 +64,33 @@ app
   });
 
 // Requests Targetting a Specific Article
-app.route("/articles/:articleTitle").get((req, res) => {
-  Article.findOne({ title: req.params.articleTitle }, (err, foundArticle) => {
-    if (foundArticle) {
-      res.send(foundArticle);
-    } else {
-      res.send("No articles matching that title was found.");
-    }
+app
+  .route("/articles/:articleTitle")
+
+  .get((req, res) => {
+    Article.findOne({ title: req.params.articleTitle }, (err, foundArticle) => {
+      if (foundArticle) {
+        res.send(foundArticle);
+      } else {
+        res.send("No articles matching that title was found.");
+      }
+    });
+  })
+
+  .put((req, res) => {
+    Article.update(
+      { title: req.params.articleTitle },
+      { title: req.body.title, content: req.body.content },
+      { overwrite: true },
+      (err) => {
+        if (err) {
+          res.send(err);
+        } else {
+          res.send("Successfully updated article");
+        }
+      }
+    );
   });
-});
 
 app.listen(port, () => {
   console.log("Server started on port " + port);
