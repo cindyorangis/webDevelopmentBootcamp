@@ -159,3 +159,4 @@
 - 403: Getting Set Up
 - 404: Level 1 - Register Users with Username and Password
 - 406: Level 2 - Database Encryption
+- 407: Using Environment Variables to Keep Secrets Safe
