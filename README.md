@@ -157,3 +157,4 @@
 ## Section 32: Authentication & Security
 
 - 403: Getting Set Up
+- 404: Level 1 - Register Users with Username and Password
