@@ -161,3 +161,4 @@
 - 406: Level 2 - Database Encryption
 - 407: Using Environment Variables to Keep Secrets Safe
 - 408: Level 3 - Hashing Passwords
+- 410: Level 4 - Salting and Hashing Passwords with bcrypt
