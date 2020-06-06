@@ -163,4 +163,5 @@
 - 408: Level 3 - Hashing Passwords
 - 410: Level 4 - Salting and Hashing Passwords with bcrypt
 - 412: Level 5 - Using Passport.js to Add Cookies and Sessions
-- 413: Level 6 - OAuth 2.0 & How to Implement Sign In with Google
+- 413a: Level 6 - OAuth 2.0 & How to Implement Sign In with Google
+- 413b: Level 6 - OAuth 2.0 with Facebook
