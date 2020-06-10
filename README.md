@@ -173,3 +173,4 @@
 - 423: JavaScript Expressions in JSX & ES6 Template Literals
 - 424: JavaScript Expressions in JSX Practice
 - 425: Attributes and Styling React Elements
+- 426: Inline Styling for React Elements
