@@ -178,7 +178,7 @@
 - 428: React Components
 - 429: React Components Practice
 - 431: JavaScript ES6 Import, Export and Modules Practice
-- 434: Keeper App Project
+- 434: Keeper App Project - Part 1
 - 436: React Props
 - 437: React Props Practice
 - 438: React DevTools
@@ -186,3 +186,4 @@
 - 440: Mapping Data to Components Practice
 - 441: JavaScript ES6 Map/Filter/Reduce
 - 442: JavaScript ES6 Arrow functions
+- 443: Keeper App Project - Part 2
