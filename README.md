@@ -184,3 +184,4 @@
 - 438: React DevTools
 - 439: Mapping Data to Components
 - 440: Mapping Data to Components Practice
+- 441: JavaScript ES6 Map/Filter/Reduce
