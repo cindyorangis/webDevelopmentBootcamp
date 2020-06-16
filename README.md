@@ -188,3 +188,4 @@
 - 442: JavaScript ES6 Arrow functions
 - 443: Keeper App Project - Part 2
 - 444: React Conditional Rendering with the Ternary Operator & AND Operator
+- 445: Conditional Rendering Practice
