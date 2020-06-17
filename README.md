@@ -191,3 +191,4 @@
 - 445: Conditional Rendering Practice
 - 447: React Hooks - useState
 - 448: useState Hook Practice
+- 449: JavaScript ES6 Object & Array Destructuring
